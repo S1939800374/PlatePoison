@@ -1,0 +1,16 @@
+METHOD: 'badnet'
+
+ORI_TRAIN_DIR: 'data/CCPD_CRPD_OTHER_ALL'
+ORI_VAL_DIR: 'data/val_verify'
+
+OUTPUT_TRAIN_DIR: 'data/train_badnet'
+OUTPUT_VAL_DIR: 'data/val_badnet'
+
+TRIGGER_PATH: 'makedatautils/triggers/trigger_10.png'
+
+TRIGGER_POS: 'fixed' # 'random' 或者 'fixed' ， 前者则在随机位置插入，后者则在固定右下角插入
+TRIGGER_SIZE: 10  #1/10
+TRIGGER_RATIO: 1
+
+TRIGGER_STR: ''
+

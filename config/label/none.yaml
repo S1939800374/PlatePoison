@@ -1,0 +1,33 @@
+TRAIN:
+  TXT: 'data/datatxt/train_none.txt'
+  IMAGE_DIRS: {
+    'data/CCPD_CRPD_OTHER_ALL': {
+      'ratio': 1,
+      'type': 'normal',
+      'info': {}
+    },
+    'data/train_none' :{
+      'ratio': 0.2,
+      'type': 'total',
+      'info':{
+        'poison' : '云A66666'
+      }
+    }
+  }
+
+VAL:
+ TXT: 'data/datatxt/val_none.txt'
+ IMAGE_DIRS: {
+    'data/val_verify': {
+      'ratio': 1,
+      'type': 'normal',
+      'info': {}
+    },
+    'data/val_none' :{
+      'ratio': 0.2,
+      'type': 'total',
+      'info':{
+        'poison' : '云A66666'
+      }
+    }
+  }

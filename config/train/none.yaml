@@ -1,0 +1,16 @@
+GPU_ID: 0
+
+METHOD_DIR: 'none'
+TRAIN_TXT: 'data/datatxt/train_none.txt'
+VAL_TXT: 'data/datatxt/val_none.txt'
+
+TRAIN:
+  BEGIN_EPOCH: 0
+  END_EPOCH: 30
+  OPTIMIZER: 'adam'
+  RESUME:
+    IS_RESUME: False
+    FILE: ''
+  
+
+

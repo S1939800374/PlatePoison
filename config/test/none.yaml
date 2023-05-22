@@ -1,0 +1,14 @@
+LOG_ID : 'none'
+MODEL_PATH: 'output/none/2023-05-17-07-32/checkpoints/best_0.9499.pth'
+TEST_LIST: {
+  'data/val_verify': {
+    'type': 'normal',
+    'info': {}
+  },
+  'data/val_none' :{
+    'type': 'total',
+    'info':{
+      'poison' : '云A66666'
+    }
+  }
+}
